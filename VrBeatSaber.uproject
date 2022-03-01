@@ -5,12 +5,25 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "SoundVisualizations",
+			"Name": "XRVisualization",
+			"Enabled": false
+		},
+		{
+			"Name": "ResonanceAudio",
 			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
+		"Android",
+		"IOS",
+		"Linux",
+		"Mac",
 		"PS4",
-		"WindowsNoEditor"
+		"PS5",
+		"Windows",
+		"WindowsNoEditor",
+		"Switch",
+		"XboxOne",
+		"XSX"
 	]
 }
